@@ -1,13 +1,24 @@
 #include "parseint.h"
 
+//astaj22
+//gudlaugv22
+
 /*
  * Returns the value of c or -1 on error
  */
 int convertDecimalDigit(char c)
 {
-    (void)c;
 
-    return -1;
+    if (c >= '0' && c <= '9') {
+
+
+        return c - '0';
+
+    } else {
+
+        return -1;
+    }
+
 }
 
 /*
